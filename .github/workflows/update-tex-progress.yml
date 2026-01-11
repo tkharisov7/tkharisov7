@@ -1,0 +1,42 @@
+name: Update LaTeX Writing Progress
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Count words in .tex files
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: python scripts/tex_word_counter.py
+
+      - name: Generate progress chart
+        run: python scripts/generate_progress_chart.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ assets/
+          git diff --quiet --cached || git commit -m "Update LaTeX writing progress [skip ci]"
+          git push
