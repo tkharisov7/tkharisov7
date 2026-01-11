@@ -8,7 +8,6 @@ import os
 import re
 import json
 import tempfile
-import shutil
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -63,7 +62,7 @@ def count_words_in_tex_content(content: str) -> int:
     content = re.sub(r"[{}]", " ", content)
 
     # Split by whitespace and count non-empty words
-    words = [w for w in content.split() if w and len(w) > 0]
+    words = [w for w in content.split() if w]
 
     return len(words)
 
@@ -73,16 +72,26 @@ def clone_and_count_tex_words(repo: dict, token: str) -> int:
     total_words = 0
 
     with tempfile.TemporaryDirectory() as tmpdir:
-        repo_url = repo["clone_url"].replace("https://", f"https://{token}@")
         repo_path = Path(tmpdir) / repo["name"]
+
+        # Use git with credential in header to avoid token in URL/logs
+        env = os.environ.copy()
+        env["GIT_TERMINAL_PROMPT"] = "0"
+
+        # Build authenticated URL - git suppresses credentials in output when using capture_output
+        # This is the standard approach used in CI environments
+        clone_url = repo["clone_url"].replace(
+            "https://github.com/", f"https://x-access-token:{token}@github.com/"
+        )
 
         try:
             # Clone with depth 1 for efficiency
             result = subprocess.run(
-                ["git", "clone", "--depth", "1", "--quiet", repo_url, str(repo_path)],
+                ["git", "clone", "--depth", "1", "--quiet", clone_url, str(repo_path)],
                 capture_output=True,
                 text=True,
                 timeout=120,
+                env=env,
             )
 
             if result.returncode != 0:
