@@ -1,9 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
   <style>
     .title { font: bold 14px sans-serif; fill: #24292f; }
     .subtitle { font: 12px sans-serif; fill: #57606a; }
+    .total { font: bold 18px sans-serif; fill: #24292f; }
+    .change { font: bold 12px sans-serif; fill: #57606a; }
+    .label { font: 10px sans-serif; fill: #57606a; }
   </style>
-  <rect width="400" height="120" fill="#f6f8fa" rx="6"/>
-  <text x="200" y="50" class="title" text-anchor="middle">📝 LaTeX Writing Progress</text>
-  <text x="200" y="75" class="subtitle" text-anchor="middle">No data yet. Start writing!</text>
+  <rect width="500" height="200" fill="#ffffff" rx="6" stroke="#d0d7de"/>
+
+  <!-- Title -->
+  <text x="40" y="25" class="title">📝 LaTeX Writing Progress</text>
+
+  <!-- Stats -->
+  <text x="460" y="20" class="total" text-anchor="end">72,003 words</text>
+  <text x="460" y="35" class="change" text-anchor="end">No change today</text>
+
+  <!-- Chart area -->
+  <line x1="40" y1="115.0" x2="460" y2="115.0" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect>
+
+  <!-- Labels -->
+  <text x="40" y="190" class="label">Last 1 days</text>
+  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-12</text>
 </svg>
