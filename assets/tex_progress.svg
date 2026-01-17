@@ -3,7 +3,7 @@
     .title { font: bold 14px sans-serif; fill: #24292f; }
     .subtitle { font: 12px sans-serif; fill: #57606a; }
     .total { font: bold 18px sans-serif; fill: #24292f; }
-    .change { font: bold 12px sans-serif; fill: #57606a; }
+    .change { font: bold 12px sans-serif; fill: #2ea44f; }
     .label { font: 10px sans-serif; fill: #57606a; }
   </style>
   <rect width="500" height="200" fill="#ffffff" rx="6" stroke="#d0d7de"/>
@@ -12,14 +12,14 @@
   <text x="40" y="25" class="title">📝 LaTeX Writing Progress</text>
 
   <!-- Stats -->
-  <text x="460" y="20" class="total" text-anchor="end">76,919 words</text>
-  <text x="460" y="35" class="change" text-anchor="end">No change today</text>
+  <text x="460" y="20" class="total" text-anchor="end">82,629 words</text>
+  <text x="460" y="35" class="change" text-anchor="end">+5710 words today! 📈</text>
 
   <!-- Chart area -->
   <line x1="40" y1="115.0" x2="460" y2="115.0" stroke="#d0d7de" stroke-width="1"/>
-  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="107.5" width="20.0" height="7.5" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect>
+  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="90.2" width="20.0" height="24.8" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="109.7" width="20.0" height="5.3" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect><rect x="150.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-17: +5710 words (total: 82629)</title></rect>
 
   <!-- Labels -->
-  <text x="40" y="190" class="label">Last 5 days</text>
-  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-16</text>
+  <text x="40" y="190" class="label">Last 6 days</text>
+  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-17</text>
 </svg>
