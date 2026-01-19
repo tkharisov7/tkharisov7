@@ -17,9 +17,9 @@
 
   <!-- Chart area -->
   <line x1="40" y1="115.0" x2="460" y2="115.0" stroke="#d0d7de" stroke-width="1"/>
-  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="90.2" width="20.0" height="24.8" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="109.7" width="20.0" height="5.3" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect><rect x="150.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-17: +5710 words (total: 82629)</title></rect><rect x="172.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-18: +0 words (total: 82629)</title></rect>
+  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="90.2" width="20.0" height="24.8" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="109.7" width="20.0" height="5.3" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect><rect x="150.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-17: +5710 words (total: 82629)</title></rect><rect x="172.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-18: +0 words (total: 82629)</title></rect><rect x="194.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-19: +0 words (total: 82629)</title></rect>
 
   <!-- Labels -->
-  <text x="40" y="190" class="label">Last 7 days</text>
-  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-18</text>
+  <text x="40" y="190" class="label">Last 8 days</text>
+  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-19</text>
 </svg>
