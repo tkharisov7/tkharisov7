@@ -12,14 +12,14 @@
   <text x="40" y="25" class="title">📝 LaTeX Writing Progress</text>
 
   <!-- Stats -->
-  <text x="460" y="20" class="total" text-anchor="end">82,727 words</text>
-  <text x="460" y="35" class="change" text-anchor="end">+98 words today! 📈</text>
+  <text x="460" y="20" class="total" text-anchor="end">84,026 words</text>
+  <text x="460" y="35" class="change" text-anchor="end">+1299 words today! 📈</text>
 
   <!-- Chart area -->
   <line x1="40" y1="115.0" x2="460" y2="115.0" stroke="#d0d7de" stroke-width="1"/>
-  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="90.2" width="20.0" height="24.8" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="109.7" width="20.0" height="5.3" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect><rect x="150.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-17: +5710 words (total: 82629)</title></rect><rect x="172.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-18: +0 words (total: 82629)</title></rect><rect x="194.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-19: +0 words (total: 82629)</title></rect><rect x="216.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-20: +0 words (total: 82629)</title></rect><rect x="238.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-21: +0 words (total: 82629)</title></rect><rect x="260.0" y="114.4" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-22: +98 words (total: 82727)</title></rect>
+  <rect x="40.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-12: +0 words (total: 72003)</title></rect><rect x="62.0" y="90.2" width="20.0" height="24.8" fill="#2ea44f" rx="2"><title>2026-01-13: +4050 words (total: 76053)</title></rect><rect x="84.0" y="109.7" width="20.0" height="5.3" fill="#2ea44f" rx="2"><title>2026-01-14: +866 words (total: 76919)</title></rect><rect x="106.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-15: +0 words (total: 76919)</title></rect><rect x="128.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-16: +0 words (total: 76919)</title></rect><rect x="150.0" y="80.0" width="20.0" height="35.0" fill="#2ea44f" rx="2"><title>2026-01-17: +5710 words (total: 82629)</title></rect><rect x="172.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-18: +0 words (total: 82629)</title></rect><rect x="194.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-19: +0 words (total: 82629)</title></rect><rect x="216.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-20: +0 words (total: 82629)</title></rect><rect x="238.0" y="115.0" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-21: +0 words (total: 82629)</title></rect><rect x="260.0" y="114.4" width="20.0" height="1.0" fill="#2ea44f" rx="2"><title>2026-01-22: +98 words (total: 82727)</title></rect><rect x="282.0" y="107.0" width="20.0" height="8.0" fill="#2ea44f" rx="2"><title>2026-01-23: +1299 words (total: 84026)</title></rect>
 
   <!-- Labels -->
-  <text x="40" y="190" class="label">Last 11 days</text>
-  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-22</text>
+  <text x="40" y="190" class="label">Last 12 days</text>
+  <text x="460" y="190" class="label" text-anchor="end">Updated: 2026-01-23</text>
 </svg>
