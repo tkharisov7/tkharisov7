@@ -1,11 +1,6 @@
-## Hi there 👋
-
-### 📝 LaTeX Writing Progress
-
-This chart shows my daily progress writing academic papers in LaTeX:
-
-![LaTeX Writing Progress](assets/tex_progress.svg)
-
-*Updated automatically every day. Tracks word count changes across all my repositories.*
-
----
+## hi!
+i am 1st year phd student in basel, switzerland. i open source here all my current projects.
+### Edge of Stability
+coming soon
+### Decentralised and Heterogeneous Data Markets
+coming soon
